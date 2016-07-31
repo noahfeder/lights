@@ -1,0 +1,28 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.lights {
+  width: 914px;
+  height: 872px;
+  transform: scale(.5, 0.5);
+}
+
+.base {
+  z-index: 1;
+}
